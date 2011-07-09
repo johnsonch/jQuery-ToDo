@@ -2,8 +2,20 @@
 <head>
   <title>My Great ToDo List</title>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="app.js" type="text/javascript" charset="utf-8"></script>
+  <script src="add_todo.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
+  <fieldset>
+    <legend>New ToDo</legend>
+    <form action="#" method="post" accept-charset="utf-8">
+      <input type="text" id="todo"/> <span id="create">Add ToDo Item</span>
+    </form>
+  </fieldset>
+  
+  <h2>ToDos</h2>
+  <ol id="todo_list">
+  </ol>
 
 </body>
 </html>
